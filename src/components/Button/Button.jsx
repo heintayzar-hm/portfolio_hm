@@ -10,7 +10,7 @@ const Button = ({ children, type, className, href }) => {
         )
     }
     return (
-        <button type="button" className={`btn ${btnStyle} ${className}`}>{children}</button>
+        <button type={type} className={`btn ${btnStyle} ${className}`}>{children}</button>
     )
 }
 

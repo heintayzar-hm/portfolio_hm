@@ -4,7 +4,7 @@ import HeaderText from "../../components/HeaderText/HeaderText";
 const Contact = () => {
     return (
         <section id="contact" className="md:px-[10%] px-5">
-            <HeaderText className="text-center mb-12">Let&apos;s Connectt</HeaderText>
+            <HeaderText className="text-center mb-12">Let&apos;s Connect</HeaderText>
             <div>
                 <form method="POST" action="https://formspree.io/f/mqkjqlzl"  className="flex flex-col gap-4">
                     <div className="flex gap-2">
@@ -21,7 +21,7 @@ const Contact = () => {
                     </div>
 
                     <div className="flex items-center justify-center">
-                    <Button type="button" className="md:w-[300px] w-full">Send</Button>
+                    <Button type="submit" className="md:w-[300px] w-full">Send</Button>
                     </div>
                 </form>
         </div>
